@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import joblib
+
 
 from sklearn.linear_model import LinearRegression
 
@@ -34,5 +36,6 @@ y_pred = model.predict(X)
 
 mse = mean_squared_error(y,y_pred)
 
-print(mse)
+joblib.dump(model, "CancerModelDocteurs.joblib")
+
 #from sklearn.metrics import mean_square
