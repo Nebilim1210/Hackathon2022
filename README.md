@@ -1,6 +1,10 @@
 # Hackathon2022
 Projet de prédiction du cancer pour le hackathon 2022.
 
+Equipe : Les Docteurs
+Mathias Deroche
+Alain Salanié
+
 Canvas : Canvas GGh2022.png
 
 Introduction : Introduction de projet.pdf
